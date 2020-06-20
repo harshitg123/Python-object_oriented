@@ -4,11 +4,11 @@ Object-oriented Programming, or OOP for short, is a programming paradigm which p
 # Contents
 #### 1. Python Classes and Objects.
 #### 2. Constructors in Python.
-#### 3.
-#### 4.
-#### 5.
-#### 6.
-#### 7.
-#### 8.
-#### 9.
-#### 10.
+#### 3. Destructors in Python.
+#### 4. Inheritance in Python.
+#### 5. Encapsulation in Python.
+#### 6. Polymorphism in Python.
+#### 7. Class or Static Variables in Python.
+#### 8. class method vs static method in Python.
+#### 9. Metaprogramming with Metaclasses in Python.
+
