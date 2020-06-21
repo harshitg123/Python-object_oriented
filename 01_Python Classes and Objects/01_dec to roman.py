@@ -1,5 +1,5 @@
-
-# Convert an integer it to a roman numeral
+# this program is to decode dec values into
+# roman values
 
 class int_to_roman:
     def roman(self,n):
