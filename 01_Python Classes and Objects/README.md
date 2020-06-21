@@ -38,12 +38,12 @@ An object consists of :
 * State : It is represented by attributes of an object. It also reflects the properties of an object.
 * Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
 * Identity : It gives a unique name to an object and enables one object to interact with other objects.
-![](Python-object_oriented/images/img-1.png)
+![](img-1.png)
 ### Declaring Objects (Also called instantiating a class)
 When an object of a class is created, the class is said to be instantiated. All the instances share the attributes and the behavior of the class. But the values of those attributes, i.e. the state are unique for each object. A single class may have any number of instances.
 
 Example:
-![](Python-object_oriented/images/img-2.png)
+![](img-2.png)
 ### Declaring an object –
     # Python program to 
     # demonstrate instantiating 
