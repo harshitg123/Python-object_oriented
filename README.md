@@ -2,8 +2,7 @@
 Object-oriented Programming, or OOP for short, is a programming paradigm which provides a means of structuring programs so that properties and behaviors are bundled into individual objects.
 
 # Contents
-#### 1. Python Classes and Objects.
-#### 1(a) Data Hiding and Object Printing.
+#### 1. Python Classes and Objects => ##### Data Hiding and Object Printing.
 #### 2. Constructors in Python.
 #### 3. Destructors in Python.
 #### 4. Inheritance in Python.
