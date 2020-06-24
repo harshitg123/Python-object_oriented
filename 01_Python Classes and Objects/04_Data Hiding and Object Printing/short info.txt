@@ -1,0 +1,2 @@
+The README.md file in this folder is to be refered after those three files
+in previous "classes and object" folder.
