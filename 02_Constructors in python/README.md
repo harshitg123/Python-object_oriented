@@ -1,15 +1,68 @@
-# What is Object oriented programming?
-Object-oriented Programming, or OOP for short, is a programming paradigm which provides a means of structuring programs so that properties and behaviors are bundled into individual objects.
+# Constructor in python
 
-# Contents
-#### 1. Python Classes and Objects.
-#### 1(a) Data Hiding and Object Printing.
-#### 2. Constructors in Python.
-#### 3. Destructors in Python.
-#### 4. Inheritance in Python.
-#### 5. Encapsulation in Python.
-#### 6. Polymorphism in Python.
-#### 7. Class or Static Variables in Python.
-#### 8. class method vs static method in Python.
-#### 9. Metaprogramming with Metaclasses in Python.
+Constructors are generally used for instantiating an object.The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.In Python the __init__() method is called the constructor and is always called when an object is created.
 
+**Syntax of constructor declaration :**
+
+    def __init__(self):
+        # body of the constructor
+        
+#### Types of constructors :
+
+* **default constructor :** The default constructor is simple constructor which doesn’t accept any arguments.It’s definition has only one argument which is a reference to the         instance being constructed.
+
+* **parameterized constructor :** constructor with parameters is known as parameterized constructor.The parameterized constructor take its first argument as a reference to the         instance being constructed known as self and the rest of the arguments are provided by the programmer.        
+
+### Example of default constructor :
+
+    class GeekforGeeks: 
+  
+        # default constructor 
+        def __init__(self): 
+            self.geek = "GeekforGeeks"
+  
+        # a method for printing data members 
+        def print_Geek(self): 
+            print(self.geek) 
+  
+  
+    # creating object of the class 
+    obj = GeekforGeeks() 
+  
+    # calling the instance method using the object obj 
+    obj.print_Geek() 
+##### Output :
+    GeekforGeeks
+### Example of parameterized constructor :
+
+    class Addition: 
+        first = 0
+        second = 0
+        answer = 0
+      
+        # parameterized constructor 
+        def __init__(self, f, s): 
+            self.first = f 
+            self.second = s 
+      
+        def display(self): 
+            print("First number = " + str(self.first)) 
+            print("Second number = " + str(self.second)) 
+            print("Addition of two numbers = " + str(self.answer)) 
+  
+        def calculate(self): 
+            self.answer = self.first + self.second 
+  
+    # creating object of the class 
+    # this will invoke parameterized constructor 
+    obj = Addition(1000, 2000) 
+  
+    # perform Addition 
+    obj.calculate() 
+  
+    # display result 
+    obj.display() 
+##### Output :
+    First number = 1000
+    Second number = 2000
+    Addition of two numbers = 3000
