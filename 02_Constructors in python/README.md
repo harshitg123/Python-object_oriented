@@ -1,15 +1,3 @@
-# What is Object oriented programming?
-Object-oriented Programming, or OOP for short, is a programming paradigm which provides a means of structuring programs so that properties and behaviors are bundled into individual objects.
+# Constructor in python
 
-# Contents
-#### 1. Python Classes and Objects.
-#### 1(a) Data Hiding and Object Printing.
-#### 2. Constructors in Python.
-#### 3. Destructors in Python.
-#### 4. Inheritance in Python.
-#### 5. Encapsulation in Python.
-#### 6. Polymorphism in Python.
-#### 7. Class or Static Variables in Python.
-#### 8. class method vs static method in Python.
-#### 9. Metaprogramming with Metaclasses in Python.
-
+Constructors are generally used for instantiating an object.The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.In Python the __init__() method is called the constructor and is always called when an object is created.
