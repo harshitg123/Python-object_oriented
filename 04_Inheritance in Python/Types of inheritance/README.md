@@ -27,7 +27,9 @@ __1. Single Inheritance:__ Single inheritance enables a derived class to inherit
 ##### Output :-
     This function is in parent class.
     This function is in child class.
-**2. Multiple Inheritance:** When a class can be derived from more than one base classes this type of inheritance is called multiple inheritance. In multiple inheritance, all the      features of the base classes are inherited into the derived class.
+
+**2. Multiple Inheritance:** When a class can be derived from more than one base classes this type of inheritance is called multiple inheritance. In multiple inheritance, all        the features of the base classes are inherited into the derived class.
+
 ![](img-2.PNG)
 
 **Example:**
@@ -64,6 +66,7 @@ __1. Single Inheritance:__ Single inheritance enables a derived class to inherit
     Mother : SITA
     
 **3. Multilevel Inheritance:** In multilevel inheritance, features of the base class and the derived class are further inherited into the new derived class. This is similar to      a relationship representing a child and grandfather.
+
 ![](img-3.PNG)
 
 **Example:**
@@ -100,6 +103,7 @@ __1. Single Inheritance:__ Single inheritance enables a derived class to inherit
     Father : Ankush
     
 **4. Hierarchical Inheritance:** When more than one derived classes are created from a single base this type of inheritence is called hierarchical inheritance. In this program,      we have a parent (base) class and two child (derived) classes.
+
 ![](img-4.PNG)
 
 **Example:**
@@ -136,6 +140,7 @@ __1. Single Inheritance:__ Single inheritance enables a derived class to inherit
     This function is in child 2.
     
 **5. Hybrid Inheritance:** Inheritence consisting of multiple types of inheritence is called hybrid inheritence.
+
 ![](img-5.PNG)
 
 **Example:**
